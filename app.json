@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "LocalNotificationExample",
-    "slug": "LocalNotificationExample",
+    "name": "NotificationExample",
+    "slug": "NotificationExample",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -23,7 +23,9 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "useNextNotificationsApi": true
+      
     },
     "web": {
       "favicon": "./assets/favicon.png"
